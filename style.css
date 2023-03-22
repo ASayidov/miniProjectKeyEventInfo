@@ -40,3 +40,13 @@ body {
   font-size: 14px;
   align-items: center;
 }
+
+@media screen and (max-width: 580px) {
+  body {
+    display: inline-flex;
+  }
+
+  .key {
+    min-width: 140px;
+  }
+}
