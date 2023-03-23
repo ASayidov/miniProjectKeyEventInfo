@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -38,6 +39,12 @@ body {
   width: 100%;
   color: #555;
   font-size: 14px;
+}
+
+a {
+  display: block;
+  position: absolute;
+  top: 50px;
 }
 
 @media screen and (max-width: 580px) {
